@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="favicon" href="qg.ico"> <!-- ?v=2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <!-- <i class="fas fa-qoute-left"></i> -->
+            <i class="fa fa-quote-left"></i>
+                <span id="qoute"></span>
+            <!-- <i class="fa fa-quote-right"></i> -->
+        </div>
+        <!-- author -->
+        <div class="qoute-author">
+            <span id="author"></span>
+        </div>
+        <!-- buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i  class="fab fa-twitter"></i>
+            </button>
+                <button class="facebook-button" id="facebook" title="Share">
+                    <i class="fab fa-facebook-f"></i>
+                </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+
+    <!-- footer -->
+    <!-- © -->
+    <footer><em>made with ❤️  </em>  G-Tech</footer>
+</body>
+</html>
