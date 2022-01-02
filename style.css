@@ -144,7 +144,6 @@ button:active
 /* footer */
 footer
 {
-    /* position:relative; */
     position:fixed;
     bottom:0;
     color: rgb(7, 6, 6);
