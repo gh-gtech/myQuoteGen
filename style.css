@@ -144,7 +144,8 @@ button:active
 /* footer */
 footer
 {
-    position:absolute;
+    /* position:relative; */
+    position:fixed;
     bottom:0;
     color: rgb(7, 6, 6);
     font-family: sans-serif;
